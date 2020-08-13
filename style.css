@@ -179,16 +179,13 @@ p{
   }
 
   #matzo_img{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;  
+    border-color: #888; 
+    border-width: thick;
     width: 200px;
   
   }
   #curry_img{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;  
+    border-color: #888;
     width: 200px;
   }
     
@@ -235,10 +232,19 @@ a:active {
     color: white; /* White text color */
 }
 #about_txt{
+  color: #fefefe;
   text-align: left; 
-  border-radius: 250px;
+  /* border-radius: 250px; */
   height: 100px;
-  
+  background-color: grey;
+  padding-bottom: 50px;
+}
+#aboutus{
+  color: #fefefe;
+  text-align: left; 
+  /* border-radius: 250px; */
+  height: 100px;
+  background-color: grey;
 }
 h2{
   text-align: center; 
@@ -275,3 +281,32 @@ h4{
   flex-direction: column;  
   justify-content: center;
 }
+
+body {
+  background-color: orange;
+}
+div{
+  align-items: center;
+}
+
+#contacts {
+  background-color: grey;
+  border-color: 136, 136, 136, .2;
+  border-width: thick;
+  color: #F2F2F2;
+  font-family: Helvetica;
+  
+}
+
+#con {
+  text-decoration-line: underline;
+}
+h4 {
+  text-decoration-line: underline;
+  
+  
+}
+
+
+
+
